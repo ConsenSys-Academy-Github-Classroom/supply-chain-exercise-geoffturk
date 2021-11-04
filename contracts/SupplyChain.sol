@@ -65,7 +65,7 @@ contract SupplyChain {
   // modifier shipped(uint _sku) 
   // modifier received(uint _sku) 
 
-  constructor() public {
+  constructor() {
     // 1. Set the owner to the transaction sender
     // 2. Initialize the sku count to 0. Question, is this necessary?
   }
